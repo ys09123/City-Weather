@@ -54,7 +54,7 @@ function App() {
         <Routes>
           {/* Weather Page */}
           <Route
-            path="/"
+            path="/current"
             element={
               <>
                 <Search onSearch={fetchWeather} />
@@ -72,7 +72,6 @@ function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="*" element={<Current />} />
         </Routes>
       </div>
     </div>

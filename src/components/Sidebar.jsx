@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <aside className="w-24 bg-[#202B3E] text-gray-200 flex flex-col items-center py-6 ml-4 my-4 gap-8 rounded-[20px]">
       {/* Top Icon */}
-      <Link to="/" className="cursor-pointer">
+      <Link to="/current" className="cursor-pointer">
         <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#33435E]/60 text-[#7D94C3] shadow-xl">
           <Wind size={38} />
         </div>
