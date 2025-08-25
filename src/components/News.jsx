@@ -7,9 +7,8 @@ const News = () => {
     useEffect(() => {
         const fetchNews = async () => {
             try {
-                const res = await axios.get(
-                    `https://newsapi.org/v2/everything?q=rain&sortBy=publishedAt&language=en&apiKey=2b3eb064e84b44139b6c5bf9e1d95434`
-                )
+                const apiKey = import.meta.env.VITE_APP_NEWS_API_KEY;
+                const res = await axios.get("/api/news")
                 setArticles(res.data.articles.slice(0, 6))
             } catch (err) {
                 console.error("Failed to fetch news", err)
