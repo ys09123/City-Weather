@@ -52,11 +52,9 @@ function App() {
       {/* Main Content Area */}
       <div className="flex-1 p-6">
         <Routes>
-          {/* Default Route */}
-          <Route path="/" element={<Current />} />
           {/* Weather Page */}
           <Route
-            path="/current"
+            path="/"
             element={
               <>
                 <Search onSearch={fetchWeather} />
