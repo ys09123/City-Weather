@@ -1,28 +1,28 @@
-🌥️ Weather Dashboard
+# 🌦️ Weather Dashboard
 
-A modern, responsive weather dashboard built with React + Tailwind CSS.
-It provides real-time weather updates, live location-based forecasts, and city search functionality with a clean dark UI.
+A modern and responsive **Weather Dashboard** built with **React + TailwindCSS**.  
+It fetches **live weather data** from [OpenWeather API](https://openweathermap.org/api) and displays:
 
-✨ Features
+- 🌍 **Live weather** based on user’s geolocation  
+- 🔎 **Search bar** with recommended cities dropdown  
+- 📊 **Current weather details** (temperature, conditions, etc.)  
+- 📰 **News & placeholder pages** for navigation  
+- 📅 Planned: **Weekly forecast view**  
 
-🌍 Live Location Weather – Automatically fetches weather based on your current location.
+---
 
-🔎 City Search – Search and view weather details for any city.
+## 🚀 Features
+- **Responsive UI** designed with TailwindCSS  
+- **Live location weather card**  
+- **Search with autocomplete suggestions**  
+- **Error handling** for invalid cities  
+- **Sidebar navigation** (Cities, Map, Settings)  
+- Mobile & desktop friendly  
 
-📊 Air Conditions – Displays real feel, wind speed, humidity, and chance of rain.
+---
 
-📱 Responsive Design – Works seamlessly across desktop, tablet, and mobile screens.
-
-🎨 Dark Theme – Beautiful modern UI styled with Tailwind CSS.
-
-🛠 Tech Stack
-
-React.js – Frontend framework
-
-Tailwind CSS – Styling and responsive design
-
-OpenWeather API – Real-time weather data
-
-NewsAPI - News data
-
-React Icons / Lucide Icons – For weather & UI icons
+## 🛠️ Tech Stack
+- **Frontend:** React, TailwindCSS  
+- **Routing:** React Router  
+- **API Calls:** Axios  
+- **Weather API:** [OpenWeather](https://openweathermap.org/)  
