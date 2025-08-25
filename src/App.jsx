@@ -53,7 +53,7 @@ function App() {
       <div className="flex-1 p-6">
         <Routes>
           {/* Default Route */}
-          <Route path="/" element={<News />} />
+          <Route path="/" element={<Current />} />
           {/* Weather Page */}
           <Route
             path="/current"
@@ -74,7 +74,7 @@ function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="*" element={<News />} />
+          <Route path="*" element={<Current />} />
         </Routes>
       </div>
     </div>
